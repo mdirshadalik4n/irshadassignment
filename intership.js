@@ -3,8 +3,6 @@ const btnItems = document.getElementById("btn-items");
 const fileTaken = document.getElementById("files");
 const emailWritten = document.getElementById("inputEmail");
 const isoutput = document.querySelector(".output");
-let updateEmail = [];
-
 fileTaken.addEventListener("change", function () {
   var filePath = fileTaken.value;
   var allowedExtensions = /(\.pdf|\.txt|\.csv)$/i;
